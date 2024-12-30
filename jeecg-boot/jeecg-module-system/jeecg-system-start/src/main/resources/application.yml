@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: jeecg-system
+  profiles:
+    active: '@profile.name@'
+
+
+#MQTT客户端
+publish:
+  mqtt:
+#    host: tcp://192.168.14.143:1883
+#    host: tcp://192.168.2.126:1883
+#    host: tcp://192.168.31.142:1883
+    host: tcp://60.205.202.75:1883
+    client-id: mqtt_subscriber_client
+
+
